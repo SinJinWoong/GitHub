@@ -6,7 +6,7 @@ public class GridTile : MonoBehaviour {
 
     public GameObject gridTile; //그리드 오브젝트
     public Sprite selectSprite; //그리드 스프라이트 설치
-    //레이어 0  깊이를 위해 할 예정
+    public SpriteRenderer gLayer; //레이어 0  깊이를 위해 할 예정
     public int setGridTile; //그리드 갯수
 
 
