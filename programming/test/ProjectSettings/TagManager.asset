@@ -13,9 +13,9 @@ TagManager:
   - UI
   - 
   - 
-  - 
-  - 
-  - 
+  - SoilTile
+  - StuctureTile
+  - GridTile
   - 
   - 
   - 
@@ -41,12 +41,15 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
-  - name: Grid
-    uniqueID: 4154864183
-    locked: 0
   - name: Soil
-    uniqueID: 3967356769
+    uniqueID: 1158346683
     locked: 0
-  - name: Structure
-    uniqueID: 1528876265
+  - name: Grid
+    uniqueID: 137753427
+    locked: 0
+  - name: Stucture
+    uniqueID: 4086707511
+    locked: 0
+  - name: char
+    uniqueID: 1087813861
     locked: 0

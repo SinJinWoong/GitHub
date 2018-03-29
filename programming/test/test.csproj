@@ -335,15 +335,17 @@
     <Compile Include="Assets\Cinemachine\Timeline\CinemachineMixer.cs" />
     <Compile Include="Assets\Cinemachine\Timeline\CinemachineShot.cs" />
     <Compile Include="Assets\Cinemachine\Timeline\CinemachineTrack.cs" />
+    <Compile Include="Assets\LoadingAni.cs" />
+    <Compile Include="Assets\NaxtScene.cs" />
     <Compile Include="Assets\Script\CharControllor.cs" />
-    <Compile Include="Assets\Script\Tile\GridTile.cs" />
-    <Compile Include="Assets\Script\Tile\TileManger.cs" />
-    <Compile Include="Assets\Script\Tile\TileSelet.cs" />
-    <Compile Include="Assets\Script\UI\Exit.cs" />
-    <Compile Include="Assets\Script\UI\LoadingAni.cs" />
-    <Compile Include="Assets\Script\UI\NaxtScene.cs" />
-    <Compile Include="Assets\Script\UI\UIAni.cs" />
-    <Compile Include="Assets\Script\UI\UIPanel.cs" />
+    <Compile Include="Assets\Script\Exit.cs" />
+    <Compile Include="Assets\Script\GridTile.cs" />
+    <Compile Include="Assets\SelectButton.cs" />
+    <Compile Include="Assets\TileMouse.cs" />
+    <Compile Include="Assets\TilePick.cs" />
+    <Compile Include="Assets\UIAni.cs" />
+    <Compile Include="Assets\UIManager.cs" />
+    <Compile Include="Assets\UIPanel.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Cinemachine\ReleaseNotes.txt" />
