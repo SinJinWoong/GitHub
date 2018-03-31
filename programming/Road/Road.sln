@@ -1,6 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2017
+# Visual Studio 15
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Road", "Road.csproj", "{6FCA2451-5B22-6137-6BEE-D46843A91D9D}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Road.Editor", "Road.Editor.csproj", "{F41B585E-E97A-21FE-BA10-47F37D5B77A0}"

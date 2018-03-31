@@ -77,31 +77,45 @@ public class CharacterController : MonoBehaviour
         }
     }
 
-    void OnCollisionEnter2D(Collision2D col)
+    void OnCollisionStay2D(Collision2D col)
     {
-
-
         if (col.gameObject.layer == 8) //바닥 레이어
         {
-            Debug.Log("aa");
             moveJump = false;
         }
 
     }
 
-    private void OnTriggerEnter2D(Collider2D col)
+    private void OnTriggerStay2D(Collider2D col)
     {
         if (col.gameObject.layer == 9) //로프 레이어
         {
-            Debug.Log("asdf");
             moveRope = true;
-            rb.mass = 0;
+            rb.gravityScale = 0;
         }
-        else
+        else if (col.gameObject.layer != 9)
         {
             moveRope = false;
-            rb.mass = 1;
+            rb.gravityScale = 1;
         }
     }
+
+    //private void OnTriggerEnter2D(Collider2D col)
+    //{
+    //    if (col.gameObject.layer == 9) //로프 레이어
+    //    {
+    //        moveRope = true;
+    //        rb.gravityScale = 0;
+    //    }
+    //}
+
+    //private void OnTriggerExit2D(Collider2D col)
+    //{
+    //    if (col.gameObject.layer == 9)
+    //    {
+    //        moveRope = false;
+    //        rb.gravityScale = 1;
+    //    }
+    //}
 
 }
