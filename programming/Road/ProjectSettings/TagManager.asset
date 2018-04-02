@@ -15,10 +15,10 @@ TagManager:
   - UI
   - 
   - 
-  - Floor
-  - Rope
   - Player
-  - 
+  - Rope
+  - Floor
+  - PassFloor
   - 
   - 
   - 
